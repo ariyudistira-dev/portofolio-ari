@@ -1,0 +1,129 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  background-color: #1e88e5;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* Section umum */
+section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* About & Contact */
+.about p,
+.contact p {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+/* Experience */
+.job-card {
+  margin-top: 20px;
+  padding: 15px;
+  border-left: 4px solid #1e88e5;
+  background-color: #f1faff;
+  border-radius: 6px;
+}
+
+.job-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.job-card p {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.job-card ul {
+  margin-left: 20px;
+  list-style-type: disc;
+  font-size: 0.95rem;
+}
+
+/* Skills */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-list li {
+  background-color: #1e88e5;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  list-style: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skill-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
